@@ -1,0 +1,161 @@
+.editor-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.toolbar button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #0056b3;
+}
+
+.editor-workspace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.edit-panel, .preview-panel {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.title-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.section {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.section.selected {
+  border-color: #007bff;
+}
+
+.section textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.image-section input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.preview-panel img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eee;
+  cursor: move;
+}
+
+.delete-button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
+
+.format-toolbar {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.format-toolbar button {
+  margin-right: 5px;
+  padding: 4px 8px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.format-toolbar button.active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.format-toolbar select {
+  margin-right: 5px;
+  padding: 4px;
+}
+
+.format-toolbar input[type="color"] {
+  vertical-align: middle;
+}
+
+.save-button {
+  background: #28a745 !important;
+}
+
+.save-button:hover {
+  background: #218838 !important;
+}
+
+.load-button {
+  background: #ffc107 !important;
+  color: #000 !important;
+}
+
+.load-button:hover {
+  background: #e0a800 !important;
+}
+
+.export-button {
+  background: #17a2b8 !important;
+}
+
+.export-button:hover {
+  background: #138496 !important;
+} 
